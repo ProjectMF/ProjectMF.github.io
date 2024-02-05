@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(39,39,42);
+  box-shadow: inset 0px 0px 200px rgba(0, 0, 0, 0.39);
+}
+
+.main-container {
+  width: 1280px;
+  margin: 0px auto;
+}
+
+.main-banner {
+  background-color: aquamarine;
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.button-apply {
+  display: block;
+  box-sizing: border-box;
+
+  border: none;
+  border-radius: 99px;
+  background-color: rgb(161, 225, 255);
+  box-shadow: 0px 0px 20px rgba(221, 250, 255, 0.288);
+  margin: 0px auto;
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: none;
+
+  padding: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.button-apply:hover {
+  cursor: pointer;
+}
+
+.empty-bottom {
+  height: 300px;
+}
